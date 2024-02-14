@@ -5,8 +5,8 @@ This repository contains the implementation of a chat application using Reactjs,
 ## Setup
 
 ## 1. Clone this repository: 
-step1 :`https://github.com/AbhinavRai2004/chatApplication.git`<br />
-step2 :`cd chatApplication`
+`https://github.com/AbhinavRai2004/chatApplication.git`<br />
+`cd chatApplication`
 
 ## For Server
 #### 2. Navigate to the project directory through terminal/powershell/bash: 
@@ -23,7 +23,7 @@ step2 :`cd chatApplication`
 ## For Client
 
 #### 4. Navigate to the project directory through terminal/powershell/bash: 
-`cd..`
+`cd..`<br />
 `cd client`
 
 #### 5.Install dependencies:
