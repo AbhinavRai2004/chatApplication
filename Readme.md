@@ -1,11 +1,11 @@
-# questionPaperGenerator
+# Chat App
 
 This repository contains the implementation of a chat application using Reactjs, NodeJs and ExpressJs.For WebSockets, we are using Socket.io.
 
 ## Setup
 
 ## 1. Clone this repository: 
-step1 :`https://github.com/AbhinavRai2004/chatApplication.git`
+step1 :`https://github.com/AbhinavRai2004/chatApplication.git`<br />
 step2 :`cd chatApplication`
 
 ## For Server
