@@ -7,8 +7,6 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
 
-//socket.io
-
 io.on("connection", (socket) => {
   console.log("A user has connected");
 
