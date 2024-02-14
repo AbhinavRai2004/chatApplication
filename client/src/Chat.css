@@ -12,7 +12,8 @@ h1 {
 
 .container {
   text-align: center;
-  background-color: beige;
+  background-image: url("D:\ChatApp\client\public\chatBack.jpg");
+  opacity: 0.5;
   border: 1px solid;
   border-radius: 20px;
   height: 550px;
@@ -32,14 +33,16 @@ h1 {
 }
 
 .message {
-  background-color: #fff;
+  background-color: cornsilk;
   padding: 7px;
   margin-bottom: 5px;
   border: 1px none #ddd;
   border-radius: 10px;
-  font-size: smaller;
+  font-size: large;
   height: 14px;
+  width: -moz-fit-content;
   width: fit-content;
+  color: black;
 }
 
 .center-input-button {
@@ -63,7 +66,7 @@ input {
 
 button {
   padding: 8px;
-  background-color: darkcyan;
+  background-color: blue;
   border-radius: 10px;
   color: #fff;
   border: none;
@@ -89,7 +92,7 @@ button {
 
   button {
     width: 100%; 
-    
+
     margin-left: 0;
     margin-right: 0;
     position: static; 
