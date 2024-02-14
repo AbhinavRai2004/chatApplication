@@ -14,7 +14,7 @@ const App = () => {
     <h1>Chat App</h1>
     <div className="container1">
       {isHide && <Chat />}
-      <button onClick={toggle}>
+      <button onClick={toggle} id ="chatBtn">
         {isHide ? "Close chatting" : "Start chatting"}
       </button>
     </div>

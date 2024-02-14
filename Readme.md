@@ -1,6 +1,6 @@
 # Chat App
 
-This repository contains the implementation of a chat application using Reactjs, NodeJs and ExpressJs.For WebSockets, we are using Socket.io.
+This repository contains the implementation of a chat application using React for the frontend and Node.js with Express and Socket.io for real-time communication.The application allows users to join a chat room by clicking the "Start chatting" button. Users can input text and send messages, which will be visible to all users connected to the same chat room, even across different browser tabs. The server handles real-time communication through WebSockets, eliminating the need for a database.
 
 ## Setup
 
@@ -9,7 +9,7 @@ This repository contains the implementation of a chat application using Reactjs,
 `https://github.com/AbhinavRai2004/chatApplication.git`<br />
 `cd chatApplication`
 
-## For Server Setup
+## For Server
 
 #### 2. Navigate to the project directory through terminal/powershell/bash:
 
@@ -25,7 +25,7 @@ This repository contains the implementation of a chat application using Reactjs,
 
 `node server.js`
 
-## For Client Setup
+## For Client
 
 #### 4. Navigate to the project directory through terminal/powershell/bash:
 
