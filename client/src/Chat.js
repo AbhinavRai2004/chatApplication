@@ -2,12 +2,16 @@ import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 import "./Chat.css";
 
+// creating a socket.io client instance 
+
 const socket = io("http://localhost:5000", { transports: ["websocket"] });
 
 const Chat = () => {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
 
+
+  // used to listen for incoming "message" events from the socket.io server.
   useEffect(() => {
     socket.on("message", (message) => {
       setMessages([...messages, message]);
@@ -16,6 +20,8 @@ const Chat = () => {
       socket.off("message");
     };
   }, [messages]);
+
+// The function `handleMessage` sends a message through a socket if the input is not empty.
 
   const handleMessage = () => {
     if (input.trim() !== "") {

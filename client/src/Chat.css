@@ -24,7 +24,7 @@ h1 {
 }
 
 .chat-box {
-  max-height: 300px;
+    max-height: 420px;
     overflow-y: auto;
     padding: 10px;
     margin-bottom: 10px;
@@ -84,13 +84,13 @@ button {
   input {
     margin-left: 0;
     margin-right: 0;
-    width: 100%; /* Set width to 100% for full width on smaller screens */
+    width: 100%; 
   }
 
   button {
-    width: 100%; /* Set width to 100% for full width on smaller screens */
+    width: 100%; 
     margin-left: 0;
     margin-right: 0;
-    position: static; /* Reset position for normal flow on smaller screens */
+    position: static; 
   }
 }
