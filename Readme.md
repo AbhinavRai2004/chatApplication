@@ -4,37 +4,46 @@ This repository contains the implementation of a chat application using Reactjs,
 
 ## Setup
 
-## 1. Clone this repository: 
+## 1. Clone this repository:
+
 `https://github.com/AbhinavRai2004/chatApplication.git`<br />
 `cd chatApplication`
 
-## For Server
-#### 2. Navigate to the project directory through terminal/powershell/bash: 
+## For Server Setup
+
+#### 2. Navigate to the project directory through terminal/powershell/bash:
+
 `cd server`
 
 #### 3.Install dependencies:
+
 `npm install`
- 
+
 #### Running the Application
 
 ###### Run the following command on terminal
- `node server.js`
 
-## For Client
+`node server.js`
 
-#### 4. Navigate to the project directory through terminal/powershell/bash: 
+## For Client Setup
+
+#### 4. Navigate to the project directory through terminal/powershell/bash:
+
 `cd..`<br />
 `cd client`
 
 #### 5.Install dependencies:
+
 `npm install`
- 
+
 #### Running the Application
 
 ##### Run the following command on terminal
- `npm start`
+
+`npm start`
 
 ## Conclusion
+
 Thank you for reviewing the chat application. If you have any questions or feedback, please feel free to reach out. Happy coding!
 
 Author: Abhinav Rai
