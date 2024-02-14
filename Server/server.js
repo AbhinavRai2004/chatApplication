@@ -27,7 +27,7 @@ io.on("connection", (socket) => {
  
 app.use(express.json());
 
-// Routes.
+//Routes.
 app.get("/", (req, resp) => {
   resp.sendFile(path.join(__dirname, "/client/public", "index.html"));
 });

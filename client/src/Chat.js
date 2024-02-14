@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 import "./Chat.css";
 
-// creating a socket.io client instance 
+// creating a socket.io client instance. 
 
 const socket = io("http://localhost:5000", { transports: ["websocket"] });
 
