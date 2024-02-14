@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
     <h1>Chat App</h1>
-    <div className="container">
+    <div className="container1">
       {isHide && <Chat />}
       <button onClick={toggle}>
         {isHide ? "Close chatting" : "Start chatting"}

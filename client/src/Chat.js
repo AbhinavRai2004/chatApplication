@@ -12,7 +12,6 @@ const Chat = () => {
     socket.on("message", (message) => {
       setMessages([...messages, message]);
     });
-
     return () => {
       socket.off("message");
     };
@@ -24,8 +23,9 @@ const Chat = () => {
       setInput("");
     }
   };
+
   return (
-    <div>
+    <div className="container">
       <div className="chat-box">
         {messages.map((message, index) => (
           <div key={index} className="message">
